@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ConvexClerkProvider>
+    <ConvexClerkProvider >
       <html lang="en">
         <AudioProvider>
           <body className={`${manrope.className}`}>{children}</body>{" "}
